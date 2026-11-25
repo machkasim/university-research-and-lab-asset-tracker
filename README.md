@@ -89,7 +89,7 @@ Tập lệnh nạp dữ liệu sử dụng transaction. Không chạy lại trê
 - Mở `sql/05_integrity_tests.sql` để chạy các test case toàn vẹn/nghiệp vụ (TC-01 đến TC-17). Script dùng dữ liệu hiện có và rollback các dòng thử nghiệm.
 - Mở `sql/04_performance.sql` để đo bốn truy vấn hiệu năng (PT-01 đến PT-04). Mỗi bài có một lần warm-up và năm lần đo; bật Actual Execution Plan bằng Ctrl+M trước khi chạy.
 
-Kết quả thời gian thực thi phụ thuộc cấu hình máy, phiên bản SQL Server, bộ nhớ đệm và chỉ mục. Nhóm cần chạy thử trên máy thực tế và ghi nhận kết quả; không sử dụng số liệu giả định như kết quả đo đã xác nhận.
+Kết quả thời gian thực thi phụ thuộc cấu hình máy, phiên bản SQL Server, bộ nhớ đệm và chỉ mục.
 
 ### Bước 4. Tạo môi trường Python
 
