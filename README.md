@@ -1,7 +1,10 @@
 # Hệ thống quản lý tài sản và hoạt động nghiên cứu tại phòng thí nghiệm Vật lý — NST
 
 Đây là ứng dụng web phục vụ học tập và trình diễn đồ án Cơ sở dữ liệu, được xây dựng bằng **Python + Flask** và **Microsoft SQL Server**.
-
+Các thành viên:
+Họ tên:Mách Ka Sim       MSSV:N24DCCN160      Lớp:D24CQCN02-N      Email:n24dccn160@student.ptithcm.edu.vn
+Họ tên:Nguyễn Trí Nhân   MSSV:N24DCCN146      Lớp:D24CQCN02-N      Email:n24dccn146@student.ptithcm.edu.vn
+Họ tên:Trần Hoài Thanh   MSSV:N24DCCN165      Lớp:D24CQCN02-N      Email:n24dccn165@student.ptithcm.edu.vn
 ## 1. Chức năng chính
 
 - **Bảng điều khiển (Dashboard):** hiển thị số lượng phòng thí nghiệm, khu vực/bàn làm việc (Workstation), thiết bị, lượt mượn chưa hoàn tất và số lần truy cập bị từ chối.
@@ -94,7 +97,7 @@ pip install -r requirements.txt
 Copy-Item .env.example .env
 ```
 
-Nếu PowerShell không cho phép kích hoạt môi trường ảo, có thể mở PowerShell với quyền phù hợp hoặc điều chỉnh Execution Policy chỉ trong phiên hiện tại theo hướng dẫn của quản trị viên máy tính.
+Nếu PowerShell không cho phép kích hoạt môi trường ảo, có thể mở PowerShell với quyền phù hợp hoặc điều chỉnh Execution Policy chỉ trong phiên hiện tại theo lệnh sau: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ### Bước 5. Cấu hình kết nối trong tệp `.env`
 
